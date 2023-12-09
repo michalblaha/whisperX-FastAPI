@@ -86,3 +86,8 @@ class Result(BaseModel):
     ]
     metadata: Metadata
     error: Optional[str]
+
+    @validator('result', pre=True)
+    def bypass_standard_validation(cls, value):
+        # Bypass or customize the validation
+        return value
