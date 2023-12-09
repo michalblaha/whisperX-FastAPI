@@ -19,9 +19,9 @@ from .files import validate_extension, ALLOWED_EXTENSIONS
 # Load environment variables from .env
 load_dotenv()
 
-LANG = "en"
+LANG = "cs"
 HF_TOKEN = os.getenv("HF_TOKEN")
-WHISPER_MODEL = "base"
+WHISPER_MODEL = "large-v3"
 
 
 # Load models during startup
