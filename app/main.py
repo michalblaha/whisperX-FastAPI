@@ -86,7 +86,7 @@ AUDIO_EXTENSIONS = {AUDIO_EXTENSIONS}
 VIDEO_EXTENSIONS = {VIDEO_EXTENSIONS}
 
 """,
-    version="0.0.1",
+    version="0.0.2",
     openapi_tags=tags_metadata,
 )
 
